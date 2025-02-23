@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task</title>
+</head>
+<style>
+.container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    background-color: #f1ebeb;
+}
+.card {
+    background-color: #f1ebeb;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+}
+.photo img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+.details p {
+    margin: 5px 0;
+}
+strong {
+    color: #333;
+}
+table,th,td{
+    border: 1px solid black;
+}
+</style>
+<body>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+
+<div>
+    <h1>Contact Us Form</h1>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+<br><br>
+
+<div>
+    <ul>
+        <li>Programming Language
+            <ul style="list-style-type: circle;">
+                <li>JavaScript</li>
+                <ol type="a">
+                    <li>Angular</li>
+                    <li>React</li>
+                    <li> Vue.js</li>
+                </ol>
+            </ul>
+            <ul style="list-style-type: circle;">
+                <li>Python</li>
+                <ol type="a">
+                    <li>Django Framework</li>
+                   <li>Flask Framework</li>
+              </ol>
+            </ul>
+            <ul style="list-style-type: circle;">
+                <li>Java</li>
+                <ol type="a">
+                    <li>Spring</li>
+               <li>Maven</li>
+                <li> Hibernate</li>
+                </ol>
+            </ul>
+        </li>
+        <li>Database
+            <ul style="list-style-type:circle;">
+                <li>MySQL</li>
+            <li>lMongoDB</li>
+            <li>Cansandra</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<br><br>
+
+<div>
+    <a href="https://google.com/" target="_blank" rel="noopener noreferrer">Google</a>
+</div>
+<br><br>
+
+<form>
+    <fieldset>
+        <legend>Employee Type</legend>
+        <label for="salaried">
+            <input type="radio" id="salaried" name="employee_type" value="salaried">
+            Salaried
+        </label>
+        <br>
+        <label for="own_business">
+            <input type="radio" id="own_business" name="employee_type" value="own_business">
+            Own Business
+        </label>
+    </fieldset>
+</form>
+<br><br>
+
+<div class="container">
+<h1>Aadhar Card</h1>
+<div class="card">
+    <div class="photo">
+        <img src="photo.jpg" alt="Photo">
+    </div>
+    <div class="details">
+        <p><strong>Name:</strong> Your Name</p>
+        <p><strong>DOB:</strong> 01/01/2000</p>
+        <p><strong>Gender:</strong> Male/Female</p>
+        <p><strong>Aadhaar Number:</strong> 1234 5678 9012</p>
+    </div>
+</div>
+</div>
+<br><br>
+
+<table>
+    <tr>
+        <th>Customer</th>
+        <th>Items</th>
+        <th>Payments</th>
+    </tr>
+    <tr>
+        <td>Customer Name</td>
+        <td>
+            <table style="width:100%">
+                <tr>
+                    <td>Item1</td>
+                    <td>5</td>
+                    <td>$400.00</td>
+                </tr>
+                <tr>
+                    <td>Item2</td>
+                    <td>10</td>
+                    <td>$200.00</td>
+                </tr>
+                <tr>
+                    <td>Item3</td>
+                    <td>2</td>
+                    <td>$500.00</td>
+                </tr>
+            </table>
+            
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>12 Sep 2018</td>
+                    <td>$3,000.00</td>
+                </tr>
+                <tr>
+                    <td>18 Sep 2018</td>
+                    <td>$2,000.00</td>
+                </tr>
+            </table>
+            
+        </td>
+    </tr>
+</table>
+<br><br>
+
+<b>"HTML & CSS is awesome"</b>
+<br><br>
+
+    <form>
+        <label for="text">Text Input:</label>
+        <input type="text" id="text" name="text" value="Default Text"><br><br>
+
+        <label for="password">Password Input:</label>
+        <input type="password" id="password" name="password" value="password123"><br><br>
+
+        <label for="email">Email Input:</label>
+        <input type="email" id="email" name="email" value="example@example.com"><br><br>
+
+        <label for="number">Number Input:</label>
+        <input type="number" id="number" name="number" value="42"><br><br>
+
+        <label for="date">Date Input:</label>
+        <input type="date" id="date" name="date" value="2023-05-01"><br><br>
+
+        <label for="datetime-local">DateTime Local Input:</label>
+        <input type="datetime-local" id="datetime-local" name="datetime-local" value="2023-05-01T12:00"><br><br>
+
+        <label for="time">Time Input:</label>
+        <input type="time" id="time" name="time" value="12:00"><br><br>
+
+        <label for="month">Month Input:</label>
+        <input type="month" id="month" name="month" value="2023-05"><br><br>
+
+        <label for="week">Week Input:</label>
+        <input type="week" id="week" name="week" value="2023-W18"><br><br>
+
+        <label for="color">Color Picker:</label>
+        <input type="color" id="color" name="color" value="#ff0000"><br><br>
+
+        <label for="range">Range Input:</label>
+        <input type="range" id="range" name="range" value="50"><br><br>
+
+        <label for="checkbox">Checkbox Input:</label>
+        <input type="checkbox" id="checkbox" name="checkbox" checked><br><br>
+
+        <label for="radio">Radio Input:</label>
+        <input type="radio" id="radio1" name="radio" value="option1" checked> Option 1
+        <input type="radio" id="radio2" name="radio" value="option2"> Option 2<br><br>
+
+        <label for="tel">Telephone Input:</label>
+        <input type="tel" id="tel" name="tel" value="123-456-7890"><br><br>
+
+        <label for="url">URL Input:</label>
+        <input type="url" id="url" name="url" value="http://example.com"><br><br>
+
+        <label for="file">File Input:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <label for="select">Select Dropdown:</label>
+        <select id="select" name="select">
+            <option value="option1" selected>Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select><br><br>
+
+        <label for="textarea">Textarea:</label>
+        <textarea id="textarea" name="textarea">Default Text</textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
